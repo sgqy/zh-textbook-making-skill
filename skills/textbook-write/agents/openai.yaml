@@ -1,0 +1,4 @@
+interface:
+  display_name: "教材章节写作"
+  short_description: "按教材品类写出连贯中文讲解，连接示例、活动、反馈与实际目标"
+  default_prompt: "请用 $textbook-write 根据本章目标和材料，写一个有示例、活动与反馈的中文教学单元。"

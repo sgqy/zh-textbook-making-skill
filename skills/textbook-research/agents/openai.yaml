@@ -1,0 +1,4 @@
+interface:
+  display_name: "教材材料研究"
+  short_description: "收集教材材料与案例，分析内容覆盖、候选品类、方法差异和证据缺口"
+  default_prompt: "请用 $textbook-research 分析我提供的教材主题和材料，整理依据、候选品类与待补内容。"

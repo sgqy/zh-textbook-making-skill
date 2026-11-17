@@ -1,0 +1,16 @@
+{
+  "name": "zh-textbook-making-skill",
+  "version": "0.1.0",
+  "private": true,
+  "description": "用于编写中文讲解教材的七个可独立安装的 Agent Skills",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22.20.0" },
+  "repository": { "type": "git", "url": "https://github.com/sgqy/zh-textbook-making-skill.git" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check && node scripts/check.mjs",
+    "test": "node --test",
+    "verify": "npm run check && npm test"
+  }
+}

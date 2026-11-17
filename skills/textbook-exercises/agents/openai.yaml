@@ -1,0 +1,4 @@
+interface:
+  display_name: "教材练习与活动"
+  short_description: "设计与目标对应的习题及活动，提供分层提示、解答或评价依据"
+  default_prompt: "请用 $textbook-exercises 为本单元设计能检验学习目标的活动，并给出提示和反馈依据。"

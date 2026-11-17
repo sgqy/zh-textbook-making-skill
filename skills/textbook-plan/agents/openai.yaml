@@ -1,0 +1,4 @@
+interface:
+  display_name: "教材分析与策划"
+  short_description: "从材料与学习目标选择教材品类，安排先修、章节、活动和反馈"
+  default_prompt: "请用 $textbook-plan 根据现有材料选定具体品类，并给出教材范围、目录和样章方案。"

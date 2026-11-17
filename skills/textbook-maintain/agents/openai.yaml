@@ -1,0 +1,4 @@
+interface:
+  display_name: "教材修订与维护"
+  short_description: "根据版本与反馈修订教材，追踪正文、题目、答案和媒体的变化"
+  default_prompt: "请用 $textbook-maintain 处理这次教材变更，修改受影响材料并记录重验结果。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "教材媒体与排版"
+  short_description: "组织教材图解、声音与版式，制作指定格式并检查实际呈现效果"
+  default_prompt: "请用 $textbook-layout 将这份教材制作成指定载体的样张，核对图文、媒体和阅读顺序。"

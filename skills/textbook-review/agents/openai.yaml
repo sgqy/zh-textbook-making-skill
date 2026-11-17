@@ -1,0 +1,4 @@
+interface:
+  display_name: "教材专业与教学审校"
+  short_description: "按品类审查教材正确性与教学结构，定位问题、证据和未验证项"
+  default_prompt: "请用 $textbook-review 审查这份教材，列出有证据的问题、修正建议和实际检查范围。"
