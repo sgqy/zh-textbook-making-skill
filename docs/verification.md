@@ -18,10 +18,18 @@ npx skills@1.9.0 add /仓库绝对路径 --skill textbook-write -a codex --copy 
 npx skills@1.9.0 add /仓库绝对路径 --skill '*' -a codex --copy -y
 ```
 
-## 待记录
+## 公开发布验证
 
-公开地址安装与远程持续集成结果在执行后补入此处。准备好行为测试任务不表示任务已运行。
+- [GitHub 仓库](https://github.com/sgqy/zh-textbook-making-skill)已设为公开，GitHub 识别协议为 MIT。
+- 从公开地址在第三个隔离项目实际安装全部技能，得到 7 个技能；安装后的包全部通过独立引用检查。安装锁文件记录来源为该仓库，提交为 `550f7163cc5c37f68ab5a59eb5a65141b4ccd583`。
+- 同一提交的 [GitHub Actions 检查](https://github.com/sgqy/zh-textbook-making-skill/actions/runs/44192784997)在 `ubuntu-latest` 和 `windows-latest` 上均通过，使用 Node.js 22，执行 `npm ci --ignore-scripts` 和 `npm run verify`。
+
+公开地址安装复现命令：
+
+```bash
+npx skills@1.9.0 add sgqy/zh-textbook-making-skill --skill '*' -a codex --copy -y
+```
 
 ## 当前能力边界
 
-八类方法资料都已随技能打包；各领域专业内容仍需按实际教材核验。首版未进行独立模型盲测、教师试教或真实读者学习效果研究。历史研究中的样页观察不等于本版教材输出已经渲染或媒体已经播放。
+八类方法资料都已随技能打包；各领域专业内容仍需按实际教材核验。首版未进行独立模型盲测、教师试教或真实读者学习效果研究。准备好行为测试任务不表示任务已运行。历史研究中的样页观察不等于本版教材输出已经渲染或媒体已经播放。
